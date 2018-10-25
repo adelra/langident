@@ -1,0 +1,5 @@
+The codes in this repo are modified version of the codes in Language Identification by Keras created by user: ajmaradiaga. link: https://github.com/ajmaradiaga/detect-language-keras/blob/master/Detect%20Language%20-%20Keras.ipynb
+
+
+Since my dataset is borrowed from the same repo, dataset pre-paration is the same as the original repo. However, the network that I have implemented is different from the original repo.
+My network consists of 60m parameters and two stacks of bidirectional LSTM. Also, I have implemented argparse in my repo which is useful for playing around with different hyperparameters.
